@@ -1,0 +1,2 @@
+# ChatBot
+基于openAI接口的聊天机器人前端,后端使用python简单编写,仅仅实现了一个简单的Http请求聊天
