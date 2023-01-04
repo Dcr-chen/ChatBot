@@ -1,0 +1,10 @@
+{
+    "openai" : {
+        "apiurl"     : "http://127.0.0.1:5555/chat"
+    },
+    "package" : {
+        "name" : "OpenAI",
+        "author" : "Mr.Yu",
+        "author_email" : "289986635@qq.com"
+    }
+}

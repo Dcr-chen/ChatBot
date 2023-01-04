@@ -1,0 +1,52 @@
+{
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "assets": [],
+  "build": {
+    "build_id": "16224501-3",
+    "build_number": 3,
+    "build_time": 1672800116889,
+    "release": false
+  },
+  "encryptLevel": 3,
+  "features": {
+    "activityIntentTasks": false,
+    "builtInOCR": "disabled",
+    "nodejs": "disabled"
+  },
+  "icon": "images/ic_app_logo.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "images/ic_splash.png",
+    "splashText": "Powered by Auto.js Pro",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "ChatBot",
+  "optimization": {
+    "obfuscateComponents": false,
+    "removeAccessibilityService": true,
+    "removeOpenCv": true,
+    "unusedResources": true
+  },
+  "packageName": "com.dcrclub.chatbot",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.INTERNET",
+      "android.permission.CLEAR_APP_CACHE",
+      "android.permission.CLEAR_APP_USER_DATA",
+      "android.permission.DELETE_CACHE_FILES"
+    ],
+    "requestListOnStartup": [
+      "android.permission.INTERNET",
+      "android.permission.USE_DATA_IN_BACKGROUND"
+    ]
+  },
+  "scripts": {},
+  "useFeatures": [],
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

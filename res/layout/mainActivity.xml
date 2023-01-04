@@ -1,0 +1,32 @@
+    <disable-SwipViewpager id="viewpager">
+        <frame id="mainpage" bg="{{uiparms.color.body.background}}">
+        
+            <LinearLayout id="mainbody"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                orientation="vertical">
+
+                <appbar w="*">
+                    <toolbar 
+                        id="toolbar"
+                        title="{{cfg.package.name}}" 
+                        bg="{{uiparms.color.body.titlebar}}">
+
+                        <!-- <img id="tologview" layout_gravity="right" 
+                            tint="#FFFFFF" w="28" h="33" marginRight="20"
+                            src="@drawable/ic_assignment_black_48dp"
+                            bg="?selectableItemBackgroundBorderless" /> -->
+                            
+                    </toolbar>
+                </appbar>
+
+                <androidx.recyclerview.widget.RecyclerView 
+                    id="msg_recycler_view"
+                    layout_width="match_parent"
+                    layout_height="0dp"
+                    layout_weight="1"/>
+
+            </LinearLayout>
+    
+        </frame>
+    </disable-SwipViewpager>

@@ -1,0 +1,31 @@
+<LinearLayout
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="5dp"
+    orientation="horizontal">
+
+    <EditText
+        id="input_text"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginLeft="10dp"
+        paddingLeft="10dp"
+        hint="Type message here"
+        textColorHint="{{uiparms.font.messageitem.color}}"
+        textAllCaps="false"
+        maxLines="2"
+        textColor="{{uiparms.font.messageitem.color}}"
+        background="{{uiparms.color.msgitem.background}}"
+        gravity="left"/>
+
+    <Button
+        id="send_btn"
+        layout_width="wrap_content"
+        layout_height="38dp"
+        layout_marginLeft="10dp"
+        text="Send"
+        textAllCaps="false"
+        textSize="16sp"/>
+
+</LinearLayout>

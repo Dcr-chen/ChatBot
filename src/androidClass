@@ -1,0 +1,16 @@
+java.io.File
+java.util.List
+android.view.View
+android.view.LayoutInflater
+android.view.MotionEvent
+androidx.recyclerview.widget.LinearLayoutManager
+androidx.recyclerview.widget.RecyclerView
+androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+android.graphics.drawable.NinePatchDrawable
+android.graphics.Bitmap
+android.graphics.BitmapFactory
+android.graphics.NinePatch
+android.os.Bundle
+android.graphics.Rect
+android.content.Context
+java.util.UUID
