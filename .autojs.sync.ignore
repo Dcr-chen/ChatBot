@@ -2,3 +2,5 @@
 /node_modules
 .autojs.sync.ignore
 /debug
+/.git
+.gitignore
